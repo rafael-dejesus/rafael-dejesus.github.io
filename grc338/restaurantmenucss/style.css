@@ -42,3 +42,7 @@ p {
     font-family:serif;
     margin-bottom: 4em;
 }
+
+body {
+    background-color: (200, 220, 255);
+}
