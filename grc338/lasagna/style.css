@@ -1,0 +1,55 @@
+/*CSS DOCUMENT*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+.container h1 {
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 0.03em;
+    font-size: 2.75em;
+}
+.container h2 {
+    font-family: 'Special Elite', cursive;
+    letter-spacing: 0.1em;
+    font-size: 1.8em;
+    color: rgb(170, 170, 170);
+}
+div.intro {
+    width: 60%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    margin-left: 1em;
+}
+.ingredients {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5em 0em 0.5em 1.5em;
+}
+.directions {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0.5em 0em 0.5em 1.5em;
+}
+li {
+    margin-bottom: 1.5em;
+}
+h6 {
+    font-size: 1em;
+    margin-top: 4em;
+    margin-bottom: 0em;
+    padding: 0em 0em 0.5em 1em;
+}
