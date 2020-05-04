@@ -7,12 +7,14 @@
     font-family: 'Special Elite', cursive;
     letter-spacing: 0.03em;
     font-size: 2.75em;
+    text-align: center;
 }
 .container h2 {
     font-family: 'Special Elite', cursive;
     letter-spacing: 0.1em;
     font-size: 1.8em;
     color: rgb(170, 170, 170);
+    text-align: center;
 }
 div.intro {
     width: 60%;
@@ -20,10 +22,19 @@ div.intro {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
     font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro p {
+    margin: 0.5em 0em 2em 0em;
 }
 
 img {
     width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h3 {
