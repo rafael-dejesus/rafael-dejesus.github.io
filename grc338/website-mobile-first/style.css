@@ -1,6 +1,11 @@
 /** This is a CSS document **/
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
 
+header {
+    width: 80%;
+    margin: auto;
+}
+
 nav {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
@@ -16,7 +21,7 @@ nav {
 }
 
 .menucategories {
-    margin-left: 1.7em;
+    text-align: center;
 }
 .person {
     font-size: 1.25em;
@@ -28,6 +33,10 @@ nav {
 header {
     margin-top: 1em;
     margin-bottom: 0em;
+}
+
+text {
+    width: 50%;
 }
 
 .text h2 {
@@ -52,12 +61,15 @@ header {
 }
 
 body {
-    width: 90%;
+    width: 80%;
     background-color: #F0EFEC;
+    margin: auto;
+    margin-bottom: 5em;
 }
 
 img {
     width: 100%;
+    margin: auto;
 }
 
 nav ul li a {
@@ -67,9 +79,26 @@ nav ul li a {
 
 nav ul li {
     list-style: none;
-    display:inline;
-    margin-right: 1.25em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
+    display: inline;
+    width: 100%;
+    margin-right: 0.4em;
+}
+
+ul {
+    text-align: center;
+}
+
+@media only screen and (min-width: 42em) {
+    nav ul li {
+        margin-right: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 65em) {
+    nav ul li {
+        margin-right: 2.2em;
+    }
 }
