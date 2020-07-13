@@ -1,0 +1,96 @@
+/*CSS document*/
+
+body {
+background-color: #f2f2f2;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+    width: 95%;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #2b2b2b;
+    line-height: 2em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+a.storyLink {
+    color: #999999;
+}
+
+a:hover {
+    color: #1D428A;
+}
+
+figcaption {
+    color: #707070;
+    margin-bottom: 2em;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 0.9em
+}
+
+nav {
+    margin-left: 0.35em;
+}
+
+hr.blue {
+    border-top: 6px solid #1D428A;
+    margin-bottom: 2em;
+}
+
+hr.yellow {
+    border-top: 6px solid #FFC72C;
+    margin-bottom: 2em;
+}
+
+footer {
+    font-style: italic;
+}
+
+h2, h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2em;
+    line-height: 2em;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+aside h2 {
+    font-size: 2em;
+}
+
+p.date {
+    margin-bottom: 1em;
+    color: #707070;
+    font-size: 0.85em;
+}
